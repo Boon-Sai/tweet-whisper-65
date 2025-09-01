@@ -82,9 +82,9 @@ const Index = () => {
     const newTweet: TweetData = {
       id: Date.now().toString(),
       user: {
-        name: 'John Doe',
-        username: 'johndoe',
-        avatar: 'JD'
+        name: 'Manoj',
+        username: 'manoj',
+        avatar: '/profile.jpg'
       },
       content,
       timestamp: new Date(),
