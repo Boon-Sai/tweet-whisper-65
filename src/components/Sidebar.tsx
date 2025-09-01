@@ -66,12 +66,14 @@ export function Sidebar() {
       {/* User Profile */}
       <div className="mt-auto">
         <div className="flex items-center gap-3 p-3 rounded-full hover:bg-muted transition-colors cursor-pointer">
-          <div className="w-10 h-10 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center">
-            <span className="text-white font-semibold">JD</span>
-          </div>
+          <img
+            src="/profile.jpg"
+            alt="Manoj"
+            className="w-10 h-10 rounded-full"
+          />
           <div className="hidden xl:block flex-1">
-            <p className="font-semibold">John Doe</p>
-            <p className="text-text-secondary text-sm">@johndoe</p>
+            <p className="font-semibold">Manoj</p>
+            <p className="text-text-secondary text-sm">@manoj</p>
           </div>
           <MoreHorizontal className="w-5 h-5 hidden xl:block" />
         </div>
